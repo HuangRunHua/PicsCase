@@ -16,7 +16,7 @@ struct LeftSideBarView: View {
         ZStack {
             Rectangle()
                 .foregroundColor(.leftSidebarBackgroundColor)
-            
+                
             DeviceView()
                 .scaleEffect(scale)
         }

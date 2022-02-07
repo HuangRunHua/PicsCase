@@ -42,6 +42,13 @@ struct ContentView: View {
                 }
             }
         }
+        .importsItemProviders(ImageImportFromDevice.importImageTypes) { providers in
+            ImageImportFromDevice.importImageFromProviders(providers) { url in
+                if let url = url {
+                    userSetting.currentImageUrl = url
+                }
+            }
+        }
     }
     
     func saveImage() {

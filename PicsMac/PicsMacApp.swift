@@ -17,6 +17,9 @@ struct PicsMacApp: App {
         }
         .windowStyle(HiddenTitleBarWindowStyle())
         .commands {
+            
+            ImportFromDevicesCommands()
+            
             CommandGroup(after: CommandGroupPlacement.newItem) {
                 Divider()
                 
@@ -33,7 +36,7 @@ struct PicsMacApp: App {
                 .keyboardShortcut("E", modifiers: [.command])
             }
             
-            ImportFromDevicesCommands()
+            
         }
     }
     
