@@ -12,6 +12,8 @@ struct LeftSideBarView: View {
     // 缩放尺度
     @State var scale = 0.600
     
+    @EnvironmentObject var userSetting: UserSetting
+    
     var body: some View {
         ZStack {
             Rectangle()
@@ -19,6 +21,13 @@ struct LeftSideBarView: View {
                 
             DeviceView()
                 .scaleEffect(scale)
+                .importsItemProviders(ImageImportFromDevice.importImageTypes) { providers in
+                    ImageImportFromDevice.importImageFromProviders(providers) { url in
+                        if let url = url {
+                            userSetting.currentImageUrl = url
+                        }
+                    }
+                }
         }
     }
 }

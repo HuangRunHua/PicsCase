@@ -15,6 +15,7 @@ struct ContentView: View {
         HSplitView {
             LeftSideBarView()
                 .frame(minWidth: 700, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity)
+            
             RightSaideBarView()
                 .frame(minWidth: 250, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity)
                 .padding()
@@ -39,13 +40,6 @@ struct ContentView: View {
                     saveImage()
                 }) {
                     Image(systemName: "square.and.arrow.up")
-                }
-            }
-        }
-        .importsItemProviders(ImageImportFromDevice.importImageTypes) { providers in
-            ImageImportFromDevice.importImageFromProviders(providers) { url in
-                if let url = url {
-                    userSetting.currentImageUrl = url
                 }
             }
         }
