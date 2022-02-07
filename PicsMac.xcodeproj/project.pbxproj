@@ -11,6 +11,21 @@
 		BDD2086F27B0B01100697942 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2086E27B0B01100697942 /* ContentView.swift */; };
 		BDD2087127B0B01100697942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD2087027B0B01100697942 /* Assets.xcassets */; };
 		BDD2087427B0B01100697942 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD2087327B0B01100697942 /* Preview Assets.xcassets */; };
+		BDD2087F27B0B13000697942 /* DeviceEnmu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2087B27B0B13000697942 /* DeviceEnmu.swift */; };
+		BDD2088027B0B13000697942 /* ImageScaleMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2087C27B0B13000697942 /* ImageScaleMode.swift */; };
+		BDD2088127B0B13000697942 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2087D27B0B13000697942 /* UserSetting.swift */; };
+		BDD2088227B0B13000697942 /* SystemDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2087E27B0B13000697942 /* SystemDeviceInfo.swift */; };
+		BDD2088527B0B16300697942 /* SystemPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2088427B0B16300697942 /* SystemPanel.swift */; };
+		BDD2088827B0B1BF00697942 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2088627B0B1BF00697942 /* ViewExtension.swift */; };
+		BDD2088927B0B1BF00697942 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2088727B0B1BF00697942 /* ColorExtension.swift */; };
+		BDD2088D27B0B26800697942 /* LeftSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2088B27B0B26800697942 /* LeftSideBarView.swift */; };
+		BDD2088E27B0B26800697942 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2088C27B0B26800697942 /* DeviceView.swift */; };
+		BDD2089127B0B30700697942 /* RightSaideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2089027B0B30700697942 /* RightSaideBarView.swift */; };
+		BDD2089627B0B31C00697942 /* ImageScaleModeSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2089227B0B31C00697942 /* ImageScaleModeSelectView.swift */; };
+		BDD2089727B0B31C00697942 /* ImageSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2089327B0B31C00697942 /* ImageSettingView.swift */; };
+		BDD2089827B0B31C00697942 /* BackgroundSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2089427B0B31C00697942 /* BackgroundSettingView.swift */; };
+		BDD2089927B0B31C00697942 /* CasePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2089527B0B31C00697942 /* CasePickerView.swift */; };
+		BDD2089C27B0B4EF00697942 /* ImageImportFromDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2089B27B0B4EF00697942 /* ImageImportFromDevice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +35,21 @@
 		BDD2087027B0B01100697942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD2087327B0B01100697942 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDD2087527B0B01100697942 /* PicsMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PicsMac.entitlements; sourceTree = "<group>"; };
+		BDD2087B27B0B13000697942 /* DeviceEnmu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceEnmu.swift; sourceTree = "<group>"; };
+		BDD2087C27B0B13000697942 /* ImageScaleMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScaleMode.swift; sourceTree = "<group>"; };
+		BDD2087D27B0B13000697942 /* UserSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+		BDD2087E27B0B13000697942 /* SystemDeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemDeviceInfo.swift; sourceTree = "<group>"; };
+		BDD2088427B0B16300697942 /* SystemPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemPanel.swift; sourceTree = "<group>"; };
+		BDD2088627B0B1BF00697942 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		BDD2088727B0B1BF00697942 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		BDD2088B27B0B26800697942 /* LeftSideBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideBarView.swift; sourceTree = "<group>"; };
+		BDD2088C27B0B26800697942 /* DeviceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		BDD2089027B0B30700697942 /* RightSaideBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightSaideBarView.swift; sourceTree = "<group>"; };
+		BDD2089227B0B31C00697942 /* ImageScaleModeSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScaleModeSelectView.swift; sourceTree = "<group>"; };
+		BDD2089327B0B31C00697942 /* ImageSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSettingView.swift; sourceTree = "<group>"; };
+		BDD2089427B0B31C00697942 /* BackgroundSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundSettingView.swift; sourceTree = "<group>"; };
+		BDD2089527B0B31C00697942 /* CasePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CasePickerView.swift; sourceTree = "<group>"; };
+		BDD2089B27B0B4EF00697942 /* ImageImportFromDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageImportFromDevice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,10 @@
 			children = (
 				BDD2086C27B0B01100697942 /* PicsMacApp.swift */,
 				BDD2086E27B0B01100697942 /* ContentView.swift */,
+				BDD2088327B0B14700697942 /* Data */,
+				BDD2088F27B0B26D00697942 /* LeftSidebar */,
+				BDD2088A27B0B1C400697942 /* Extensions */,
+				BDD2089A27B0B32400697942 /* RightSidebar */,
 				BDD2087027B0B01100697942 /* Assets.xcassets */,
 				BDD2087527B0B01100697942 /* PicsMac.entitlements */,
 				BDD2087227B0B01100697942 /* Preview Content */,
@@ -67,6 +101,89 @@
 				BDD2087327B0B01100697942 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDD2088327B0B14700697942 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2089E27B0B80A00697942 /* UserSettings */,
+				BDD2089F27B0B82300697942 /* DevicesData */,
+				BDD208A027B0B86300697942 /* ImageSettings */,
+				BDD208A127B0B87800697942 /* SystemControlData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BDD2088A27B0B1C400697942 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2088727B0B1BF00697942 /* ColorExtension.swift */,
+				BDD2088627B0B1BF00697942 /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BDD2088F27B0B26D00697942 /* LeftSidebar */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2088C27B0B26800697942 /* DeviceView.swift */,
+				BDD2088B27B0B26800697942 /* LeftSideBarView.swift */,
+			);
+			path = LeftSidebar;
+			sourceTree = "<group>";
+		};
+		BDD2089A27B0B32400697942 /* RightSidebar */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2089027B0B30700697942 /* RightSaideBarView.swift */,
+				BDD2089D27B0B7EF00697942 /* Views */,
+			);
+			path = RightSidebar;
+			sourceTree = "<group>";
+		};
+		BDD2089D27B0B7EF00697942 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2089427B0B31C00697942 /* BackgroundSettingView.swift */,
+				BDD2089527B0B31C00697942 /* CasePickerView.swift */,
+				BDD2089227B0B31C00697942 /* ImageScaleModeSelectView.swift */,
+				BDD2089327B0B31C00697942 /* ImageSettingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDD2089E27B0B80A00697942 /* UserSettings */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2087D27B0B13000697942 /* UserSetting.swift */,
+			);
+			path = UserSettings;
+			sourceTree = "<group>";
+		};
+		BDD2089F27B0B82300697942 /* DevicesData */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2087B27B0B13000697942 /* DeviceEnmu.swift */,
+				BDD2087E27B0B13000697942 /* SystemDeviceInfo.swift */,
+			);
+			path = DevicesData;
+			sourceTree = "<group>";
+		};
+		BDD208A027B0B86300697942 /* ImageSettings */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2087C27B0B13000697942 /* ImageScaleMode.swift */,
+			);
+			path = ImageSettings;
+			sourceTree = "<group>";
+		};
+		BDD208A127B0B87800697942 /* SystemControlData */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2089B27B0B4EF00697942 /* ImageImportFromDevice.swift */,
+				BDD2088427B0B16300697942 /* SystemPanel.swift */,
+			);
+			path = SystemControlData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +256,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD2087F27B0B13000697942 /* DeviceEnmu.swift in Sources */,
 				BDD2086F27B0B01100697942 /* ContentView.swift in Sources */,
+				BDD2089627B0B31C00697942 /* ImageScaleModeSelectView.swift in Sources */,
 				BDD2086D27B0B01100697942 /* PicsMacApp.swift in Sources */,
+				BDD2089927B0B31C00697942 /* CasePickerView.swift in Sources */,
+				BDD2088927B0B1BF00697942 /* ColorExtension.swift in Sources */,
+				BDD2088127B0B13000697942 /* UserSetting.swift in Sources */,
+				BDD2088227B0B13000697942 /* SystemDeviceInfo.swift in Sources */,
+				BDD2089127B0B30700697942 /* RightSaideBarView.swift in Sources */,
+				BDD2088E27B0B26800697942 /* DeviceView.swift in Sources */,
+				BDD2089C27B0B4EF00697942 /* ImageImportFromDevice.swift in Sources */,
+				BDD2088D27B0B26800697942 /* LeftSideBarView.swift in Sources */,
+				BDD2088527B0B16300697942 /* SystemPanel.swift in Sources */,
+				BDD2089827B0B31C00697942 /* BackgroundSettingView.swift in Sources */,
+				BDD2089727B0B31C00697942 /* ImageSettingView.swift in Sources */,
+				BDD2088827B0B1BF00697942 /* ViewExtension.swift in Sources */,
+				BDD2088027B0B13000697942 /* ImageScaleMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
