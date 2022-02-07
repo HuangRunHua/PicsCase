@@ -4,11 +4,18 @@ Update PicsMac to reach new features, and enjoy this convenient and compact soft
 ## Overview
 PicMac 1.0 is an macOS app which can help you add a device image shell to your selected image. PicMac 1.0 requires a Mac running macOS Monterey 12.1 or later.
 
-## Mac Shells 
+## Apple Bezels 
 ### Features
 - Users can choose 7 Mac shells, including **iMac** and **Macbook Pro** in recent years. Detailed equipment includes: MacBook Air(2018 or later), iMac 24", iMac 27", MacBook Pro 15"(Gen 4), MacBook Pro 14"(Gen 5) and MacBook Pro 16"(Gen 4 and Gen 5).
 
 - Users can choose iPhone shells. Detailed equipment includes: iPhone 11 (all version), iPhone 12 (all version) and iPhone 13 (all version).
+
+- Users can choose iPad shells. Detailed equipment includes: iPad(Gen 6), iPad Air(Gen 4), iPad Mini and iPad Pro.
+
+- Users can choose Apple Watch shells. Detailed equipment includes: Apple Watch S6 and Apple Watch S7.
+
+- Users can choose Apple TV 4K shell. 
+
 
 ## Image Picker
 ### Features
