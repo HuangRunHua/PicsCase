@@ -36,11 +36,6 @@ PicMac 1.0 is an macOS app which can help you add a device image shell to your s
 - Users can change the color of the bottom background image, and the bottom background image is white by default.
 - Users can customize the size of the canvas window. The size of the canvas window has a certain threshold.
 
-### Known Issues
-- The software may respond incorrectly when switching from a setting with a default background image to a setting without a default background image.
-
-**Workaround**: Close window and open a new window, and try again.
-
 ## Image Setting
 ### Features
 - Users can change the transparency of the selected image, the transparency of the selected image is completely opaque by default.
