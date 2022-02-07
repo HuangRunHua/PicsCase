@@ -12,7 +12,7 @@ struct RightSaideBarView: View {
     @EnvironmentObject var userSetting: UserSetting
     
     var body: some View {
-        VStack {
+        VStack(alignment:.leading) {
             VStack(alignment:.leading) {
                 Text("Appearance")
                     .fontWeight(.bold)
@@ -38,6 +38,11 @@ struct RightSaideBarView: View {
                 ImageScaleModeSelectView(userSetting: userSetting)
             }
             Divider()
+            Text("Canvas")
+                .fontWeight(.bold)
+                .font(.system(size: 15))
+            CanvasScaleControlView(userSetting: userSetting)
+                .padding(.top, -5)
             Spacer()
         }
     }

@@ -28,6 +28,7 @@
 		BDD2089C27B0B4EF00697942 /* ImageImportFromDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2089B27B0B4EF00697942 /* ImageImportFromDevice.swift */; };
 		BDD208AA27B0DDAF00697942 /* HelpCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD208A927B0DDAF00697942 /* HelpCommands.swift */; };
 		BDD208AC27B0DE8200697942 /* FileCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD208AB27B0DE8200697942 /* FileCommands.swift */; };
+		BDE6F0B127B10D0500B94EC0 /* CanvasScaleControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6F0B027B10D0500B94EC0 /* CanvasScaleControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		BDD2089B27B0B4EF00697942 /* ImageImportFromDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageImportFromDevice.swift; sourceTree = "<group>"; };
 		BDD208A927B0DDAF00697942 /* HelpCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCommands.swift; sourceTree = "<group>"; };
 		BDD208AB27B0DE8200697942 /* FileCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCommands.swift; sourceTree = "<group>"; };
+		BDE6F0B027B10D0500B94EC0 /* CanvasScaleControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasScaleControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				BDD2089527B0B31C00697942 /* CasePickerView.swift */,
 				BDD2089227B0B31C00697942 /* ImageScaleModeSelectView.swift */,
 				BDD2089327B0B31C00697942 /* ImageSettingView.swift */,
+				BDE6F0B027B10D0500B94EC0 /* CanvasScaleControlView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				BDD2088E27B0B26800697942 /* DeviceView.swift in Sources */,
 				BDD2089C27B0B4EF00697942 /* ImageImportFromDevice.swift in Sources */,
 				BDD208AC27B0DE8200697942 /* FileCommands.swift in Sources */,
+				BDE6F0B127B10D0500B94EC0 /* CanvasScaleControlView.swift in Sources */,
 				BDD2088D27B0B26800697942 /* LeftSideBarView.swift in Sources */,
 				BDD208AA27B0DDAF00697942 /* HelpCommands.swift in Sources */,
 				BDD2088527B0B16300697942 /* SystemPanel.swift in Sources */,

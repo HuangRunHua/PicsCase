@@ -21,5 +21,6 @@ class UserSetting: ObservableObject {
     // Background view something
     @Published var isBackgroundViewShow: Bool = false
     @Published var backgroundViewColor: Color = .white
+    @Published var scale = 0.600
     
 }
