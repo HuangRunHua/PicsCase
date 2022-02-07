@@ -1,25 +1,32 @@
 //
-//  PicsMacApp.swift
+//  FileCommands.swift
 //  PicsMac
 //
 //  Created by Runhua Huang on 2022/2/7.
 //
 
+import Foundation
 import SwiftUI
 
-@main
-struct PicsMacApp: App {
-    @StateObject var userSetting = UserSetting()
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .environmentObject(userSetting)
-        }
-        .windowStyle(HiddenTitleBarWindowStyle())
-        .commands {
-            ImportFromDevicesCommands()
-            FileCommands(userSetting: userSetting)
-            HelpCommands()
+struct FileCommands: Commands {
+    
+    @StateObject var userSetting: UserSetting
+    
+    var body: some Commands {
+        CommandGroup(after: CommandGroupPlacement.newItem) {
+            Divider()
+            
+            Button("Insert Picture") {
+                if let openURL = SystemPanel().showOpenPanel() {
+                    userSetting.currentImageUrl = openURL
+                }
+            }
+            .keyboardShortcut("I", modifiers: [.command])
+            
+            Button("Export Picture") {
+                saveImage()
+            }
+            .keyboardShortcut("E", modifiers: [.command])
         }
     }
     
