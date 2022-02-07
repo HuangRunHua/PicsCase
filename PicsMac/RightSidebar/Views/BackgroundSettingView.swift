@@ -12,8 +12,8 @@ struct BackgroundSettingView: View {
     @ObservedObject var userSetting: UserSetting
     
     var body: some View {
-        VStack {
-            Toggle("Show background canvas", isOn: $userSetting.isBackgroundViewShow)
+        VStack(alignment: .leading) {
+            BackgroundPickerView(userSetting: userSetting)
             ColorPicker("Background color", selection: $userSetting.backgroundViewColor)
         }
     }

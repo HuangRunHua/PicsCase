@@ -14,10 +14,10 @@ struct ContentView: View {
     var body: some View {
         HSplitView {
             LeftSideBarView()
-                .frame(minWidth: 700, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity)
+                .frame(minWidth: 700, maxWidth: .infinity, minHeight: 550, maxHeight: .infinity)
             
             RightSaideBarView()
-                .frame(minWidth: 250, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity)
+                .frame(minWidth: 250, maxWidth: .infinity, minHeight: 550, maxHeight: .infinity)
                 .padding()
         }
         .toolbar(id: "editingtools") {

@@ -35,6 +35,7 @@
 		BDF1D20827B12022000C3338 /* HelpImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20727B12022000C3338 /* HelpImagePickerView.swift */; };
 		BDF1D20A27B120BF000C3338 /* HelpImageExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20927B120BF000C3338 /* HelpImageExportView.swift */; };
 		BDF1D20C27B121C7000C3338 /* HelpBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20B27B121C6000C3338 /* HelpBackgroundView.swift */; };
+		BDF1D20E27B14096000C3338 /* BackgroundPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20D27B14096000C3338 /* BackgroundPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		BDF1D20727B12022000C3338 /* HelpImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpImagePickerView.swift; sourceTree = "<group>"; };
 		BDF1D20927B120BF000C3338 /* HelpImageExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpImageExportView.swift; sourceTree = "<group>"; };
 		BDF1D20B27B121C6000C3338 /* HelpBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpBackgroundView.swift; sourceTree = "<group>"; };
+		BDF1D20D27B14096000C3338 /* BackgroundPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			children = (
 				BDD2089427B0B31C00697942 /* BackgroundSettingView.swift */,
 				BDD2089527B0B31C00697942 /* CasePickerView.swift */,
+				BDF1D20D27B14096000C3338 /* BackgroundPickerView.swift */,
 				BDD2089227B0B31C00697942 /* ImageScaleModeSelectView.swift */,
 				BDD2089327B0B31C00697942 /* ImageSettingView.swift */,
 				BDE6F0B027B10D0500B94EC0 /* CanvasScaleControlView.swift */,
@@ -309,6 +312,7 @@
 				BDD2088927B0B1BF00697942 /* ColorExtension.swift in Sources */,
 				BDD2088127B0B13000697942 /* UserSetting.swift in Sources */,
 				BDF1D20C27B121C7000C3338 /* HelpBackgroundView.swift in Sources */,
+				BDF1D20E27B14096000C3338 /* BackgroundPickerView.swift in Sources */,
 				BDF1D20827B12022000C3338 /* HelpImagePickerView.swift in Sources */,
 				BDD2088227B0B13000697942 /* SystemDeviceInfo.swift in Sources */,
 				BDD2089127B0B30700697942 /* RightSaideBarView.swift in Sources */,
