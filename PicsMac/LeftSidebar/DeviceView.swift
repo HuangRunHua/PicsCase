@@ -35,13 +35,26 @@ struct DeviceView: View {
                     .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
                     .opacity(userSetting.imageOpacity)
             }
-            
+
             Image(userSetting.devicePicker.rawValue)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: userSetting.currentDevice.deviceWidth, height: userSetting.currentDevice.deviceHeight)
                 .padding()
-                
+            
+            
+//            Image("test")
+//                .resizable()
+//                .frame(width: 329, height: 712)
+//                .clipped()
+//                .offset(x: 0, y: 0)
+//                .opacity(userSetting.imageOpacity)
+//
+//            Image(userSetting.devicePicker.rawValue)
+//                .resizable()
+//                .aspectRatio(contentMode: .fit)
+//                .frame(width: 384, height: 768)
+//                .padding()
         }
     }
 }

@@ -17,7 +17,7 @@ struct PicsMacApp: App {
         }
         .windowStyle(HiddenTitleBarWindowStyle())
         .commands {
-            ImportFromDevicesCommands()
+            // ImportFromDevicesCommands()
             FileCommands(userSetting: userSetting)
             HelpCommands()
         }

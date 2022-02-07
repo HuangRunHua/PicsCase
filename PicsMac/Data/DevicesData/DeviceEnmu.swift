@@ -8,6 +8,17 @@
 import Foundation
 
 enum DeviceCase: String, CaseIterable, Identifiable, Equatable {
+    case iPhone11
+    case iPhone11Pro
+    case iPhone11ProMax
+    case iPhone12Mini
+    case iPhone12
+    case iPhone12Pro
+    case iPhone12ProMax
+    case iPhone13Mini
+    case iPhone13
+    case iPhone13Pro
+    case iPhone13ProMax
     case MacBookAir13
     case iMac24
     case iMac27
