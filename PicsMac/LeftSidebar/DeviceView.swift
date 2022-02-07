@@ -19,7 +19,6 @@ struct DeviceView: View {
                 .foregroundColor(userSetting.backgroundViewColor)
                 .opacity(userSetting.isBackgroundViewShow ? 1:0)
                 
-            
             if userSetting.selectedImageScaleMode == .stretch {
                 Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
                     .resizable()
@@ -42,6 +41,7 @@ struct DeviceView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: userSetting.currentDevice.deviceWidth, height: userSetting.currentDevice.deviceHeight)
                 .padding()
+                
         }
     }
 }
