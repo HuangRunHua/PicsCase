@@ -28,17 +28,6 @@ struct HelpBackgroundView: View {
             }
             .multilineTextAlignment(.leading)
             .padding([.trailing,.leading])
-            
-            Text("**Known Issues**")
-            
-            VStack(alignment: .leading) {
-                Text("**·** The software may respond incorrectly when switching from a setting with a default background image to a setting without a default background image.")
-                    .padding(.bottom, 5)
-            }
-            .multilineTextAlignment(.leading)
-            .padding([.trailing,.leading])
-            
-            Text("**Workaround:** Close window and open a new window, and try again.")
         }
     }
 }

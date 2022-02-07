@@ -41,6 +41,7 @@ extension View {
         win.contentViewController = controller
         win.title = title
         win.makeKeyAndOrderFront(sender)
+        
         return win
     }
 }
