@@ -34,6 +34,7 @@ PicMac 1.0 is an macOS app which can help you add a device image shell to your s
 ### Features
 - Users can choose whether they want a bottom background image. The bottom background image is hidden by default, and users can check whether to display the bottom background image on the software.
 - Users can change the color of the bottom background image, and the bottom background image is white by default.
+- Users can customize the size of the canvas window. The size of the canvas window has a certain threshold.
 
 ### Known Issues
 - The software may respond incorrectly when switching from a setting with a default background image to a setting without a default background image.
