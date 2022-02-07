@@ -11,10 +11,15 @@ PicMac 1.0 is an macOS app which can help you add a device image shell to your s
 ## Image Picker
 ### Features
 - Users can select a picture from the Mac folder as the bottom picture, and there are no specific requirements for the size or pixels of the picture.
+- Users can quickly insert pictures through the command+I shortcut key.
+
+### Known Issues
+- Importing images from device doesn't work as expected.
 
 ## Image Export
 ### Features
 - Users can export the picture after adding the device shell to any position on the device disk. The picture which exports from PicsMac is in `.png` format by default.
+- Users can quickly export pictures through the command+E shortcut key.
 
 ## Background View
 ### Features
