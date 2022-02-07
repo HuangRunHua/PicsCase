@@ -45,15 +45,15 @@ struct DeviceView: View {
             
 //            Image("test")
 //                .resizable()
-//                .frame(width: 329, height: 712)
+//                .frame(width: 915, height: 515)
 //                .clipped()
-//                .offset(x: 0, y: 0)
+//                .offset(x: -30, y: -45)
 //                .opacity(userSetting.imageOpacity)
 //
 //            Image(userSetting.devicePicker.rawValue)
 //                .resizable()
 //                .aspectRatio(contentMode: .fit)
-//                .frame(width: 384, height: 768)
+//                .frame(width: 1024, height: 662)
 //                .padding()
         }
     }

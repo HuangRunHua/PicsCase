@@ -35,6 +35,21 @@ struct SystemDeviceInfo: Identifiable, Equatable {
         SystemDeviceInfo(name: .iPhone13Mini, xOffset: 0, yOffset: 0, deviceWidth: 381, deviceHeight: 768, imgWidth: 332, imgHeight: 719),
         SystemDeviceInfo(name: .iPhone13, xOffset: 0, yOffset: 0, deviceWidth: 398, deviceHeight: 768, imgWidth: 333, imgHeight: 721),
         SystemDeviceInfo(name: .iPhone13Pro, xOffset: 0, yOffset: 0, deviceWidth: 398, deviceHeight: 768, imgWidth: 333, imgHeight: 721),
-        SystemDeviceInfo(name: .iPhone13ProMax, xOffset: 0, yOffset: 0, deviceWidth: 384, deviceHeight: 768, imgWidth: 329, imgHeight: 712)
+        SystemDeviceInfo(name: .iPhone13ProMax, xOffset: 0, yOffset: 0, deviceWidth: 384, deviceHeight: 768, imgWidth: 329, imgHeight: 712),
+        SystemDeviceInfo(name: .iPadLandscape, xOffset: 0, yOffset: 0, deviceWidth: 1024, deviceHeight: 708, imgWidth: 832, imgHeight: 625),
+        SystemDeviceInfo(name: .iPadPortrait, xOffset: 0, yOffset: 0, deviceWidth: 531, deviceHeight: 768, imgWidth: 468, imgHeight: 623),
+        SystemDeviceInfo(name: .iPadminiLandscape, xOffset: 0, yOffset: 0, deviceWidth: 1024, deviceHeight: 715, imgWidth: 910, imgHeight: 598),
+        SystemDeviceInfo(name: .iPadminiPortrait, xOffset: 0, yOffset: 0, deviceWidth: 536, deviceHeight: 768, imgWidth: 448, imgHeight: 683),
+        SystemDeviceInfo(name: .iPadAirLandscape, xOffset: 0, yOffset: -1, deviceWidth: 1024, deviceHeight: 745, imgWidth: 916, imgHeight: 636),
+        SystemDeviceInfo(name: .iPadAirPortrait, xOffset: 0, yOffset: 0, deviceWidth: 559, deviceHeight: 768, imgWidth: 478, imgHeight: 687),
+        SystemDeviceInfo(name: .iPadPro11Landscape, xOffset: 0, yOffset: 0, deviceWidth: 1024, deviceHeight: 742, imgWidth: 937, imgHeight: 656),
+        SystemDeviceInfo(name: .iPadPro11Portrait, xOffset: 0, yOffset: 0, deviceWidth: 556, deviceHeight: 768, imgWidth: 492, imgHeight: 703),
+        SystemDeviceInfo(name: .iPadPro12Landscape, xOffset: 0, yOffset: 0, deviceWidth: 993, deviceHeight: 768, imgWidth: 917, imgHeight: 688),
+        SystemDeviceInfo(name: .iPadPro12Portrait, xOffset: 0, yOffset: 0, deviceWidth: 594, deviceHeight: 768, imgWidth: 532, imgHeight: 709),
+        SystemDeviceInfo(name: .AppleWatch44mmSeries6, xOffset: 0, yOffset: 0, deviceWidth: 469, deviceHeight: 768, imgWidth: 315, imgHeight: 382),
+        SystemDeviceInfo(name: .AppleWatch45mmSeries7, xOffset: 0, yOffset: 0, deviceWidth: 482, deviceHeight: 768, imgWidth: 355, imgHeight: 434),
+        SystemDeviceInfo(name: .AppleTV4K, xOffset: -30, yOffset: -45, deviceWidth: 1024, deviceHeight: 662, imgWidth: 915, imgHeight: 515),
+
+
     ]
 }
