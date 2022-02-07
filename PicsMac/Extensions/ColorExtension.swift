@@ -9,5 +9,6 @@ import Foundation
 import SwiftUI
 
 extension Color {
-    static let leftSidebarBackgroundColor = Color("leftSidebarBackgroundColor")
+    static let helpBackgroundColor = Color("helpBackgroundColor")
+    static let canvasColor = Color("canvasColor")
 }

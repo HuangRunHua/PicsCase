@@ -11,9 +11,10 @@ struct HelpCommands: Commands {
     var body: some Commands {
         CommandGroup(replacing: .help) {
             Button(action: {
-                if let url = URL(string: "https://example.com") {
-                    NSWorkspace.shared.open(url)
-                }
+                HelpView().openInWindow(title: "PicsMac Help", sender: self)
+//                if let url = URL(string: "https://example.com") {
+//                    NSWorkspace.shared.open(url)
+//                }
             }) {
                 Text("Release Notes")
             }

@@ -29,6 +29,12 @@
 		BDD208AA27B0DDAF00697942 /* HelpCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD208A927B0DDAF00697942 /* HelpCommands.swift */; };
 		BDD208AC27B0DE8200697942 /* FileCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD208AB27B0DE8200697942 /* FileCommands.swift */; };
 		BDE6F0B127B10D0500B94EC0 /* CanvasScaleControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6F0B027B10D0500B94EC0 /* CanvasScaleControlView.swift */; };
+		BDE6F0B327B1146D00B94EC0 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6F0B227B1146D00B94EC0 /* HelpView.swift */; };
+		BDF1D20427B11F56000C3338 /* HelpOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20327B11F56000C3338 /* HelpOverviewView.swift */; };
+		BDF1D20627B11FA7000C3338 /* HelpAppleBezelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20527B11FA7000C3338 /* HelpAppleBezelsView.swift */; };
+		BDF1D20827B12022000C3338 /* HelpImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20727B12022000C3338 /* HelpImagePickerView.swift */; };
+		BDF1D20A27B120BF000C3338 /* HelpImageExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20927B120BF000C3338 /* HelpImageExportView.swift */; };
+		BDF1D20C27B121C7000C3338 /* HelpBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20B27B121C6000C3338 /* HelpBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +62,12 @@
 		BDD208A927B0DDAF00697942 /* HelpCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCommands.swift; sourceTree = "<group>"; };
 		BDD208AB27B0DE8200697942 /* FileCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCommands.swift; sourceTree = "<group>"; };
 		BDE6F0B027B10D0500B94EC0 /* CanvasScaleControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasScaleControlView.swift; sourceTree = "<group>"; };
+		BDE6F0B227B1146D00B94EC0 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		BDF1D20327B11F56000C3338 /* HelpOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpOverviewView.swift; sourceTree = "<group>"; };
+		BDF1D20527B11FA7000C3338 /* HelpAppleBezelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpAppleBezelsView.swift; sourceTree = "<group>"; };
+		BDF1D20727B12022000C3338 /* HelpImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpImagePickerView.swift; sourceTree = "<group>"; };
+		BDF1D20927B120BF000C3338 /* HelpImageExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpImageExportView.swift; sourceTree = "<group>"; };
+		BDF1D20B27B121C6000C3338 /* HelpBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,7 @@
 			children = (
 				BDD2086C27B0B01100697942 /* PicsMacApp.swift */,
 				BDD2086E27B0B01100697942 /* ContentView.swift */,
+				BDF1D20227B11F36000C3338 /* Helper */,
 				BDD208AD27B0DFBA00697942 /* CommandsView */,
 				BDD2088327B0B14700697942 /* Data */,
 				BDD2088A27B0B1C400697942 /* Extensions */,
@@ -203,6 +216,19 @@
 			path = CommandsView;
 			sourceTree = "<group>";
 		};
+		BDF1D20227B11F36000C3338 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BDE6F0B227B1146D00B94EC0 /* HelpView.swift */,
+				BDF1D20B27B121C6000C3338 /* HelpBackgroundView.swift */,
+				BDF1D20927B120BF000C3338 /* HelpImageExportView.swift */,
+				BDF1D20727B12022000C3338 /* HelpImagePickerView.swift */,
+				BDF1D20327B11F56000C3338 /* HelpOverviewView.swift */,
+				BDF1D20527B11FA7000C3338 /* HelpAppleBezelsView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,17 +300,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD2087F27B0B13000697942 /* DeviceEnmu.swift in Sources */,
+				BDF1D20627B11FA7000C3338 /* HelpAppleBezelsView.swift in Sources */,
 				BDD2086F27B0B01100697942 /* ContentView.swift in Sources */,
 				BDD2089627B0B31C00697942 /* ImageScaleModeSelectView.swift in Sources */,
 				BDD2086D27B0B01100697942 /* PicsMacApp.swift in Sources */,
+				BDF1D20427B11F56000C3338 /* HelpOverviewView.swift in Sources */,
 				BDD2089927B0B31C00697942 /* CasePickerView.swift in Sources */,
 				BDD2088927B0B1BF00697942 /* ColorExtension.swift in Sources */,
 				BDD2088127B0B13000697942 /* UserSetting.swift in Sources */,
+				BDF1D20C27B121C7000C3338 /* HelpBackgroundView.swift in Sources */,
+				BDF1D20827B12022000C3338 /* HelpImagePickerView.swift in Sources */,
 				BDD2088227B0B13000697942 /* SystemDeviceInfo.swift in Sources */,
 				BDD2089127B0B30700697942 /* RightSaideBarView.swift in Sources */,
 				BDD2088E27B0B26800697942 /* DeviceView.swift in Sources */,
+				BDE6F0B327B1146D00B94EC0 /* HelpView.swift in Sources */,
 				BDD2089C27B0B4EF00697942 /* ImageImportFromDevice.swift in Sources */,
 				BDD208AC27B0DE8200697942 /* FileCommands.swift in Sources */,
+				BDF1D20A27B120BF000C3338 /* HelpImageExportView.swift in Sources */,
 				BDE6F0B127B10D0500B94EC0 /* CanvasScaleControlView.swift in Sources */,
 				BDD2088D27B0B26800697942 /* LeftSideBarView.swift in Sources */,
 				BDD208AA27B0DDAF00697942 /* HelpCommands.swift in Sources */,
