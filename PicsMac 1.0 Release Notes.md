@@ -21,9 +21,7 @@ PicMac 1.0 is an macOS app which can help you add a device image shell to your s
 ### Features
 - Users can select a picture from the Mac folder as the bottom picture, and there are no specific requirements for the size or pixels of the picture.
 - Users can quickly insert pictures through the command+I shortcut key.
-
-### Known Issues
-- Importing images from device doesn't work as expected.
+- Uses can import **photos**, **scan documents** and **sketches** from apple devices such as iPhone and iPad.
 
 ## Image Export
 ### Features
