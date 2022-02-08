@@ -22,14 +22,8 @@ struct HelpImagePickerView: View {
                 
                 Text("**·** Users can quickly insert pictures through the command+I shortcut key.")
                     .padding(.bottom, 5)
-            }
-            .multilineTextAlignment(.leading)
-            .padding([.trailing,.leading])
-            
-            Text("**Known Issues**")
-            
-            VStack(alignment: .leading) {
-                Text("**·** Importing images from device doesn't work as expected.")
+                
+                Text("**·** Uses can import **photos**, **scan documents** and **sketches** from apple devices such as iPhone and iPad.")
                     .padding(.bottom, 5)
             }
             .multilineTextAlignment(.leading)
