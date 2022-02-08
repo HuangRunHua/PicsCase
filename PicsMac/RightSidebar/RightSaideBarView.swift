@@ -43,6 +43,7 @@ struct RightSaideBarView: View {
                 .font(.system(size: 15))
             CanvasScaleControlView(userSetting: userSetting)
                 .padding(.top, -5)
+            Divider()
             Spacer()
         }
     }
