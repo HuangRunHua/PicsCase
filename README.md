@@ -7,3 +7,6 @@ The main reason I developed this app is because I am a graduate student. I need 
 ![](https://github.com/HuangRunHua/PicsMac/blob/main/Screen%20Shot%202022-03-01%20at%209.18.49%20PM.png)
 
 Before I developed this app, I always used Photoshop or Sketch to achieve this function, but the high price made me a little bit discouraged, and the problem of slow Photoshop startup has always bothered me, so I came up with an idea: dev an app to achieve this function. Hence the birth of PicsMac.
+
+## Function
+For the details of what this app can do, please reference [Released Notes](https://github.com/HuangRunHua/PicsMac/blob/main/PicsMac%201.0%20Release%20Notes.md)
