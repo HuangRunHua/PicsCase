@@ -1,6 +1,6 @@
 //
-//  PicsMacApp.swift
-//  PicsMac
+//  PicsCaseApp.swift
+//  PicsCase
 //
 //  Created by Runhua Huang on 2022/2/7.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct PicsMacApp: App {
+struct PicsCaseApp: App {
     @StateObject var userSetting = UserSetting()
     var body: some Scene {
         WindowGroup {

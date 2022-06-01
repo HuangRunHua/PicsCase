@@ -1,6 +1,6 @@
 //
 //  HelpImageExportView.swift
-//  PicsMac
+//  PicsCase
 //
 //  Created by Runhua Huang on 2022/2/7.
 //
@@ -17,7 +17,7 @@ struct HelpImageExportView: View {
             Text("**Features**")
             
             VStack(alignment: .leading) {
-                Text("**·** Users can export the picture after adding the device shell to any position on the device disk. The picture which exports from PicsMac is in `.png` format by default.")
+                Text("**·** Users can export the picture after adding the device shell to any position on the device disk. The picture which exports from PicsCase is in `.png` format by default.")
                     .padding(.bottom, 5)
                 
                 Text("**·** Users can quickly export pictures through the command+E shortcut key.")

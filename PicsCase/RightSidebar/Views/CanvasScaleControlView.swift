@@ -1,6 +1,6 @@
 //
 //  CanvasScaleControlView.swift
-//  PicsMac
+//  PicsCase
 //
 //  Created by Runhua Huang on 2022/2/7.
 //

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BDD2086D27B0B01100697942 /* PicsMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2086C27B0B01100697942 /* PicsMacApp.swift */; };
+		BDD2086D27B0B01100697942 /* PicsCaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2086C27B0B01100697942 /* PicsCaseApp.swift */; };
 		BDD2086F27B0B01100697942 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2086E27B0B01100697942 /* ContentView.swift */; };
 		BDD2087127B0B01100697942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD2087027B0B01100697942 /* Assets.xcassets */; };
 		BDD2087427B0B01100697942 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD2087327B0B01100697942 /* Preview Assets.xcassets */; };
@@ -39,12 +39,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BDD2086927B0B01100697942 /* PicsMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicsMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDD2086C27B0B01100697942 /* PicsMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsMacApp.swift; sourceTree = "<group>"; };
+		BDD2086927B0B01100697942 /* PicsCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicsCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD2086C27B0B01100697942 /* PicsCaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsCaseApp.swift; sourceTree = "<group>"; };
 		BDD2086E27B0B01100697942 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDD2087027B0B01100697942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD2087327B0B01100697942 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BDD2087527B0B01100697942 /* PicsMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PicsMac.entitlements; sourceTree = "<group>"; };
+		BDD2087527B0B01100697942 /* PicsCase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PicsCase.entitlements; sourceTree = "<group>"; };
 		BDD2087B27B0B13000697942 /* DeviceEnmu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceEnmu.swift; sourceTree = "<group>"; };
 		BDD2087C27B0B13000697942 /* ImageScaleMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScaleMode.swift; sourceTree = "<group>"; };
 		BDD2087D27B0B13000697942 /* UserSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		BDD2086027B0B01100697942 = {
 			isa = PBXGroup;
 			children = (
-				BDD2086B27B0B01100697942 /* PicsMac */,
+				BDD2086B27B0B01100697942 /* PicsCase */,
 				BDD2086A27B0B01100697942 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,15 +94,15 @@
 		BDD2086A27B0B01100697942 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDD2086927B0B01100697942 /* PicsMac.app */,
+				BDD2086927B0B01100697942 /* PicsCase.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BDD2086B27B0B01100697942 /* PicsMac */ = {
+		BDD2086B27B0B01100697942 /* PicsCase */ = {
 			isa = PBXGroup;
 			children = (
-				BDD2086C27B0B01100697942 /* PicsMacApp.swift */,
+				BDD2086C27B0B01100697942 /* PicsCaseApp.swift */,
 				BDD2086E27B0B01100697942 /* ContentView.swift */,
 				BDF1D20227B11F36000C3338 /* Helper */,
 				BDD208AD27B0DFBA00697942 /* CommandsView */,
@@ -111,10 +111,10 @@
 				BDD2088F27B0B26D00697942 /* LeftSidebar */,
 				BDD2089A27B0B32400697942 /* RightSidebar */,
 				BDD2087027B0B01100697942 /* Assets.xcassets */,
-				BDD2087527B0B01100697942 /* PicsMac.entitlements */,
+				BDD2087527B0B01100697942 /* PicsCase.entitlements */,
 				BDD2087227B0B01100697942 /* Preview Content */,
 			);
-			path = PicsMac;
+			path = PicsCase;
 			sourceTree = "<group>";
 		};
 		BDD2087227B0B01100697942 /* Preview Content */ = {
@@ -235,9 +235,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BDD2086827B0B01100697942 /* PicsMac */ = {
+		BDD2086827B0B01100697942 /* PicsCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDD2087827B0B01100697942 /* Build configuration list for PBXNativeTarget "PicsMac" */;
+			buildConfigurationList = BDD2087827B0B01100697942 /* Build configuration list for PBXNativeTarget "PicsCase" */;
 			buildPhases = (
 				BDD2086527B0B01100697942 /* Sources */,
 				BDD2086627B0B01100697942 /* Frameworks */,
@@ -247,9 +247,9 @@
 			);
 			dependencies = (
 			);
-			name = PicsMac;
+			name = PicsCase;
 			productName = PicsMac;
-			productReference = BDD2086927B0B01100697942 /* PicsMac.app */;
+			productReference = BDD2086927B0B01100697942 /* PicsCase.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -267,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BDD2086427B0B01100697942 /* Build configuration list for PBXProject "PicsMac" */;
+			buildConfigurationList = BDD2086427B0B01100697942 /* Build configuration list for PBXProject "PicsCase" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -280,7 +280,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BDD2086827B0B01100697942 /* PicsMac */,
+				BDD2086827B0B01100697942 /* PicsCase */,
 			);
 		};
 /* End PBXProject section */
@@ -306,7 +306,7 @@
 				BDF1D20627B11FA7000C3338 /* HelpAppleBezelsView.swift in Sources */,
 				BDD2086F27B0B01100697942 /* ContentView.swift in Sources */,
 				BDD2089627B0B31C00697942 /* ImageScaleModeSelectView.swift in Sources */,
-				BDD2086D27B0B01100697942 /* PicsMacApp.swift in Sources */,
+				BDD2086D27B0B01100697942 /* PicsCaseApp.swift in Sources */,
 				BDF1D20427B11F56000C3338 /* HelpOverviewView.swift in Sources */,
 				BDD2089927B0B31C00697942 /* CasePickerView.swift in Sources */,
 				BDD2088927B0B1BF00697942 /* ColorExtension.swift in Sources */,
@@ -455,12 +455,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PicsMac/PicsMac.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PicsCase/PicsCase.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PicsMac/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PicsCase/Preview Content\"";
 				DEVELOPMENT_TEAM = YRB62S584T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -484,12 +484,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PicsMac/PicsMac.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PicsCase/PicsCase.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PicsMac/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PicsCase/Preview Content\"";
 				DEVELOPMENT_TEAM = YRB62S584T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -511,7 +511,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDD2086427B0B01100697942 /* Build configuration list for PBXProject "PicsMac" */ = {
+		BDD2086427B0B01100697942 /* Build configuration list for PBXProject "PicsCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDD2087627B0B01100697942 /* Debug */,
@@ -520,7 +520,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDD2087827B0B01100697942 /* Build configuration list for PBXNativeTarget "PicsMac" */ = {
+		BDD2087827B0B01100697942 /* Build configuration list for PBXNativeTarget "PicsCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDD2087927B0B01100697942 /* Debug */,
