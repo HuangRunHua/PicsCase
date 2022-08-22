@@ -1,8 +1,8 @@
-# PicsMac 1.0 Release Notes
-Update PicsMac to reach new features, and enjoy this convenient and compact software.
+# PicsCase 1.0 Release Notes
+Update PicsCase to reach new features, and enjoy this convenient and compact software.
 
 ## Overview
-PicMac 1.0 is an macOS app which can help you add a device image shell to your selected image. PicMac 1.0 requires a Mac running macOS Monterey 12.1 or later.
+PicsCase 1.0 is an macOS app which can help you add a device image shell to your selected image. PicsCase 1.0 requires a Mac running macOS Monterey 12.1 or later.
 
 ## Apple Bezels 
 ### Features
@@ -25,7 +25,7 @@ PicMac 1.0 is an macOS app which can help you add a device image shell to your s
 
 ## Image Export
 ### Features
-- Users can export the picture after adding the device shell to any position on the device disk. The picture which exports from PicsMac is in `.png` format by default.
+- Users can export the picture after adding the device shell to any position on the device disk. The picture which exports from PicsCase is in `.png` format by default.
 - Users can quickly export pictures through the command+E shortcut key.
 
 ## Background View
