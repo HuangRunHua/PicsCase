@@ -19,7 +19,6 @@ struct PicsCaseApp: App {
         .commands {
             ImportFromDevicesCommands()
             FileCommands(userSetting: userSetting)
-            HelpCommands()
         }
     }
     

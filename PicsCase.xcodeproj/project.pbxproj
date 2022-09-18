@@ -26,15 +26,8 @@
 		BDD2089827B0B31C00697942 /* BackgroundSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2089427B0B31C00697942 /* BackgroundSettingView.swift */; };
 		BDD2089927B0B31C00697942 /* CasePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2089527B0B31C00697942 /* CasePickerView.swift */; };
 		BDD2089C27B0B4EF00697942 /* ImageImportFromDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2089B27B0B4EF00697942 /* ImageImportFromDevice.swift */; };
-		BDD208AA27B0DDAF00697942 /* HelpCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD208A927B0DDAF00697942 /* HelpCommands.swift */; };
 		BDD208AC27B0DE8200697942 /* FileCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD208AB27B0DE8200697942 /* FileCommands.swift */; };
 		BDE6F0B127B10D0500B94EC0 /* CanvasScaleControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6F0B027B10D0500B94EC0 /* CanvasScaleControlView.swift */; };
-		BDE6F0B327B1146D00B94EC0 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6F0B227B1146D00B94EC0 /* HelpView.swift */; };
-		BDF1D20427B11F56000C3338 /* HelpOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20327B11F56000C3338 /* HelpOverviewView.swift */; };
-		BDF1D20627B11FA7000C3338 /* HelpAppleBezelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20527B11FA7000C3338 /* HelpAppleBezelsView.swift */; };
-		BDF1D20827B12022000C3338 /* HelpImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20727B12022000C3338 /* HelpImagePickerView.swift */; };
-		BDF1D20A27B120BF000C3338 /* HelpImageExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20927B120BF000C3338 /* HelpImageExportView.swift */; };
-		BDF1D20C27B121C7000C3338 /* HelpBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20B27B121C6000C3338 /* HelpBackgroundView.swift */; };
 		BDF1D20E27B14096000C3338 /* BackgroundPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1D20D27B14096000C3338 /* BackgroundPickerView.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,15 +53,8 @@
 		BDD2089427B0B31C00697942 /* BackgroundSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundSettingView.swift; sourceTree = "<group>"; };
 		BDD2089527B0B31C00697942 /* CasePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CasePickerView.swift; sourceTree = "<group>"; };
 		BDD2089B27B0B4EF00697942 /* ImageImportFromDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageImportFromDevice.swift; sourceTree = "<group>"; };
-		BDD208A927B0DDAF00697942 /* HelpCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCommands.swift; sourceTree = "<group>"; };
 		BDD208AB27B0DE8200697942 /* FileCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCommands.swift; sourceTree = "<group>"; };
 		BDE6F0B027B10D0500B94EC0 /* CanvasScaleControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasScaleControlView.swift; sourceTree = "<group>"; };
-		BDE6F0B227B1146D00B94EC0 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
-		BDF1D20327B11F56000C3338 /* HelpOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpOverviewView.swift; sourceTree = "<group>"; };
-		BDF1D20527B11FA7000C3338 /* HelpAppleBezelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpAppleBezelsView.swift; sourceTree = "<group>"; };
-		BDF1D20727B12022000C3338 /* HelpImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpImagePickerView.swift; sourceTree = "<group>"; };
-		BDF1D20927B120BF000C3338 /* HelpImageExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpImageExportView.swift; sourceTree = "<group>"; };
-		BDF1D20B27B121C6000C3338 /* HelpBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpBackgroundView.swift; sourceTree = "<group>"; };
 		BDF1D20D27B14096000C3338 /* BackgroundPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +90,6 @@
 			children = (
 				BDD2086C27B0B01100697942 /* PicsCaseApp.swift */,
 				BDD2086E27B0B01100697942 /* ContentView.swift */,
-				BDF1D20227B11F36000C3338 /* Helper */,
 				BDD208AD27B0DFBA00697942 /* CommandsView */,
 				BDD2088327B0B14700697942 /* Data */,
 				BDD2088A27B0B1C400697942 /* Extensions */,
@@ -213,23 +198,9 @@
 		BDD208AD27B0DFBA00697942 /* CommandsView */ = {
 			isa = PBXGroup;
 			children = (
-				BDD208A927B0DDAF00697942 /* HelpCommands.swift */,
 				BDD208AB27B0DE8200697942 /* FileCommands.swift */,
 			);
 			path = CommandsView;
-			sourceTree = "<group>";
-		};
-		BDF1D20227B11F36000C3338 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				BDE6F0B227B1146D00B94EC0 /* HelpView.swift */,
-				BDF1D20B27B121C6000C3338 /* HelpBackgroundView.swift */,
-				BDF1D20927B120BF000C3338 /* HelpImageExportView.swift */,
-				BDF1D20727B12022000C3338 /* HelpImagePickerView.swift */,
-				BDF1D20327B11F56000C3338 /* HelpOverviewView.swift */,
-				BDF1D20527B11FA7000C3338 /* HelpAppleBezelsView.swift */,
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +231,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					BDD2086827B0B01100697942 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -303,27 +274,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD2087F27B0B13000697942 /* DeviceEnmu.swift in Sources */,
-				BDF1D20627B11FA7000C3338 /* HelpAppleBezelsView.swift in Sources */,
 				BDD2086F27B0B01100697942 /* ContentView.swift in Sources */,
 				BDD2089627B0B31C00697942 /* ImageScaleModeSelectView.swift in Sources */,
 				BDD2086D27B0B01100697942 /* PicsCaseApp.swift in Sources */,
-				BDF1D20427B11F56000C3338 /* HelpOverviewView.swift in Sources */,
 				BDD2089927B0B31C00697942 /* CasePickerView.swift in Sources */,
 				BDD2088927B0B1BF00697942 /* ColorExtension.swift in Sources */,
 				BDD2088127B0B13000697942 /* UserSetting.swift in Sources */,
-				BDF1D20C27B121C7000C3338 /* HelpBackgroundView.swift in Sources */,
 				BDF1D20E27B14096000C3338 /* BackgroundPickerView.swift in Sources */,
-				BDF1D20827B12022000C3338 /* HelpImagePickerView.swift in Sources */,
 				BDD2088227B0B13000697942 /* SystemDeviceInfo.swift in Sources */,
 				BDD2089127B0B30700697942 /* RightSaideBarView.swift in Sources */,
 				BDD2088E27B0B26800697942 /* DeviceView.swift in Sources */,
-				BDE6F0B327B1146D00B94EC0 /* HelpView.swift in Sources */,
 				BDD2089C27B0B4EF00697942 /* ImageImportFromDevice.swift in Sources */,
 				BDD208AC27B0DE8200697942 /* FileCommands.swift in Sources */,
-				BDF1D20A27B120BF000C3338 /* HelpImageExportView.swift in Sources */,
 				BDE6F0B127B10D0500B94EC0 /* CanvasScaleControlView.swift in Sources */,
 				BDD2088D27B0B26800697942 /* LeftSideBarView.swift in Sources */,
-				BDD208AA27B0DDAF00697942 /* HelpCommands.swift in Sources */,
 				BDD2088527B0B16300697942 /* SystemPanel.swift in Sources */,
 				BDD2089827B0B31C00697942 /* BackgroundSettingView.swift in Sources */,
 				BDD2089727B0B31C00697942 /* ImageSettingView.swift in Sources */,
@@ -369,6 +333,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -386,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -430,6 +395,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -441,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -459,9 +425,11 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PicsCase/Preview Content\"";
 				DEVELOPMENT_TEAM = YRB62S584T;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -471,7 +439,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.noreply-email.PicsMac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -488,9 +456,11 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PicsCase/Preview Content\"";
 				DEVELOPMENT_TEAM = YRB62S584T;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -500,7 +470,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.noreply-email.PicsMac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
