@@ -1,10 +1,14 @@
-# PicsCase 1.0 Release Notes
+# PicsCase 1.1.0 Release Notes
 Update PicsCase to reach new features, and enjoy this convenient and compact software.
 
 ## Overview
 PicsCase 1.0 is an macOS app which can help you add a device image shell to your selected image. PicsCase 1.0 requires a Mac running macOS Monterey 12.1 or later.
 
 ## Apple Bezels 
+### What is new
+- [ ] iPhone 14 (plus) and iPhone 14 Pro/Max shells.
+- [ ] Apple Watch S8/Utral
+
 ### Features
 - Users can choose 7 Mac shells, including **iMac** and **Macbook Pro** in recent years. Detailed equipment includes: MacBook Air(2018 or later), iMac 24", iMac 27", MacBook Pro 15"(Gen 4), MacBook Pro 14"(Gen 5) and MacBook Pro 16"(Gen 4 and Gen 5).
 
