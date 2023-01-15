@@ -48,6 +48,8 @@ struct SystemDeviceInfo: Identifiable, Equatable {
         SystemDeviceInfo(name: .iPadPro12Portrait, xOffset: 0, yOffset: 0, deviceWidth: 594, deviceHeight: 768, imgWidth: 532, imgHeight: 709),
         SystemDeviceInfo(name: .AppleWatch44mmSeries6, xOffset: 0, yOffset: 0, deviceWidth: 469, deviceHeight: 768, imgWidth: 315, imgHeight: 382),
         SystemDeviceInfo(name: .AppleWatch45mmSeries7, xOffset: 0, yOffset: 0, deviceWidth: 482, deviceHeight: 768, imgWidth: 355, imgHeight: 434),
+        SystemDeviceInfo(name: .AppleWatch41mmSeries8, xOffset: 0, yOffset: 0, deviceWidth: 480, deviceHeight: 760, imgWidth: 352, imgHeight: 429),
+        SystemDeviceInfo(name: .AppleWatch45mmSeries8, xOffset: 0, yOffset: 0, deviceWidth: 482, deviceHeight: 768, imgWidth: 355, imgHeight: 434),
         SystemDeviceInfo(name: .AppleTV4K, xOffset: -30, yOffset: -45, deviceWidth: 1024, deviceHeight: 662, imgWidth: 915, imgHeight: 515),
     ]
 }

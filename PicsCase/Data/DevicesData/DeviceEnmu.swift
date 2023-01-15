@@ -11,6 +11,8 @@ enum DeviceCase: String, CaseIterable, Identifiable, Equatable {
     
     case AppleWatch44mmSeries6
     case AppleWatch45mmSeries7
+    case AppleWatch41mmSeries8
+    case AppleWatch45mmSeries8
     case iPhone11
     case iPhone11Pro
     case iPhone11ProMax
@@ -106,6 +108,10 @@ enum DeviceCase: String, CaseIterable, Identifiable, Equatable {
             return "MacBook Pro 16-inch (Gen5)"
         case .AppleTV4K:
             return "Apple TV 4K"
+        case .AppleWatch41mmSeries8:
+            return "Apple Watch 41mm Series 8"
+        case .AppleWatch45mmSeries8:
+            return "Apple Watch 45mm Series 8"
         }
     }
     
