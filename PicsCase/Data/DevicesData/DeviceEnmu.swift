@@ -13,6 +13,7 @@ enum DeviceCase: String, CaseIterable, Identifiable, Equatable {
     case AppleWatch45mmSeries7
     case AppleWatch41mmSeries8
     case AppleWatch45mmSeries8
+    case AppleWatchUltra
     case iPhone11
     case iPhone11Pro
     case iPhone11ProMax
@@ -112,6 +113,8 @@ enum DeviceCase: String, CaseIterable, Identifiable, Equatable {
             return "Apple Watch 41mm Series 8"
         case .AppleWatch45mmSeries8:
             return "Apple Watch 45mm Series 8"
+        case .AppleWatchUltra:
+            return "Apple Watch Ultra"
         }
     }
     
