@@ -1,8 +1,8 @@
-# PicsCase 1.1.0 Release Notes
+# PicsCase 1.2.0 Release Notes
 Update PicsCase to reach new features, and enjoy this convenient and compact software.
 
 ## Overview
-PicsCase 1.1.0 is an macOS app which can help you add a device image shell to your selected image. PicsCase 1.1.0 requires a Mac running macOS Monterey 12.0 or later.
+PicsCase 1.2.0 is an macOS app which can help you add a device image shell to your selected image. PicsCase 1.2.0 requires a Mac running macOS Monterey 12.0 or later.
 
 ## Apple Bezels 
 ### What is new
