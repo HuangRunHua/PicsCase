@@ -25,7 +25,7 @@ struct DeviceView: View {
                     .clipped()
                     .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
                     .opacity(userSetting.imageOpacity)
-                    .cornerRadius(10)
+                    .cornerRadius(((userSetting.currentDevice.name == .iPhone14Pro)||(userSetting.currentDevice.name == .iPhone14ProMax)) ? 10:0 )
             } else {
                 Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
                     .resizable()
@@ -34,7 +34,7 @@ struct DeviceView: View {
                     .clipped()
                     .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
                     .opacity(userSetting.imageOpacity)
-                    .cornerRadius(10)
+                    .cornerRadius(((userSetting.currentDevice.name == .iPhone14Pro)||(userSetting.currentDevice.name == .iPhone14ProMax)) ? 10:0 )
             }
 
             Image(userSetting.devicePicker.rawValue)
