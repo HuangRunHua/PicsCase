@@ -36,6 +36,11 @@ struct SystemDeviceInfo: Identifiable, Equatable {
         SystemDeviceInfo(name: .iPhone13, xOffset: 0, yOffset: 0, deviceWidth: 398, deviceHeight: 768, imgWidth: 333, imgHeight: 721),
         SystemDeviceInfo(name: .iPhone13Pro, xOffset: 0, yOffset: 0, deviceWidth: 398, deviceHeight: 768, imgWidth: 333, imgHeight: 721),
         SystemDeviceInfo(name: .iPhone13ProMax, xOffset: 0, yOffset: 0, deviceWidth: 384, deviceHeight: 768, imgWidth: 329, imgHeight: 712),
+        SystemDeviceInfo(name: .iPhone14, xOffset: 0, yOffset: 0, deviceWidth: 385, deviceHeight: 768, imgWidth: 330, imgHeight: 713),
+        SystemDeviceInfo(name: .iPhone14Plus, xOffset: 0, yOffset: 0, deviceWidth: 377, deviceHeight: 768, imgWidth: 331, imgHeight: 717),
+        SystemDeviceInfo(name: .iPhone14Pro, xOffset: 0, yOffset: 0, deviceWidth: 379, deviceHeight: 768, imgWidth: 335, imgHeight: 724),
+        SystemDeviceInfo(name: .iPhone14ProMax, xOffset: 0, yOffset: 0, deviceWidth: 380, deviceHeight: 768, imgWidth: 339, imgHeight: 732),
+        
         SystemDeviceInfo(name: .iPadLandscape, xOffset: 0, yOffset: 0, deviceWidth: 1024, deviceHeight: 708, imgWidth: 832, imgHeight: 625),
         SystemDeviceInfo(name: .iPadPortrait, xOffset: 0, yOffset: 0, deviceWidth: 531, deviceHeight: 768, imgWidth: 468, imgHeight: 624),
         SystemDeviceInfo(name: .iPadminiLandscape, xOffset: 0, yOffset: 0, deviceWidth: 1024, deviceHeight: 715, imgWidth: 910, imgHeight: 598),

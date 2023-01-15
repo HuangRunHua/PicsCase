@@ -13,7 +13,6 @@ struct DeviceView: View {
     
     var body: some View {
         ZStack {
-            
             Rectangle()
                 .frame(width: userSetting.currentDevice.deviceWidth+20, height: userSetting.currentDevice.deviceHeight+20)
                 .foregroundColor(userSetting.backgroundViewColor)
@@ -26,6 +25,7 @@ struct DeviceView: View {
                     .clipped()
                     .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
                     .opacity(userSetting.imageOpacity)
+                    .cornerRadius(10)
             } else {
                 Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
                     .resizable()
@@ -34,6 +34,7 @@ struct DeviceView: View {
                     .clipped()
                     .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
                     .opacity(userSetting.imageOpacity)
+                    .cornerRadius(10)
             }
 
             Image(userSetting.devicePicker.rawValue)
@@ -41,20 +42,6 @@ struct DeviceView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: userSetting.currentDevice.deviceWidth, height: userSetting.currentDevice.deviceHeight)
                 .padding()
-            
-            
-//            Image("test")
-//                .resizable()
-//                .frame(width: 915, height: 515)
-//                .clipped()
-//                .offset(x: -30, y: -45)
-//                .opacity(userSetting.imageOpacity)
-//
-//            Image(userSetting.devicePicker.rawValue)
-//                .resizable()
-//                .aspectRatio(contentMode: .fit)
-//                .frame(width: 1024, height: 662)
-//                .padding()
         }
     }
 }

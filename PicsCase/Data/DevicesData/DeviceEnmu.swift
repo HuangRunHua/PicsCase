@@ -25,6 +25,10 @@ enum DeviceCase: String, CaseIterable, Identifiable, Equatable {
     case iPhone13
     case iPhone13Pro
     case iPhone13ProMax
+    case iPhone14
+    case iPhone14Plus
+    case iPhone14Pro
+    case iPhone14ProMax
     case iPadLandscape
     case iPadPortrait
     case iPadminiLandscape
@@ -72,7 +76,7 @@ enum DeviceCase: String, CaseIterable, Identifiable, Equatable {
         case .iPhone13Pro:
             return "iPhone 13 Pro"
         case .iPhone13ProMax:
-            return "iPhone 12 Pro Max"
+            return "iPhone 13 Pro Max"
         case .iPadLandscape:
             return "iPad (Landscape)"
         case .iPadPortrait:
@@ -115,6 +119,14 @@ enum DeviceCase: String, CaseIterable, Identifiable, Equatable {
             return "Apple Watch 45mm Series 8"
         case .AppleWatchUltra:
             return "Apple Watch Ultra"
+        case .iPhone14:
+            return "iPhone 14"
+        case .iPhone14Plus:
+            return "iPhone 14 Plus"
+        case .iPhone14Pro:
+            return "iPhone 14 Pro"
+        case .iPhone14ProMax:
+            return "iPhone 14 Pro Max"
         }
     }
     
