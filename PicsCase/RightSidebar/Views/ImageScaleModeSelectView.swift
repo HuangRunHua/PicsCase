@@ -14,7 +14,7 @@ struct ImageScaleModeSelectView: View {
     var body: some View {
         Picker("Image Scale Mode", selection: $userSetting.selectedImageScaleMode) {
             ForEach(ImageScaleMode.allCases) {
-                Text($0.description).tag($0)
+                Text($0.description.localizedString).tag($0)
             }
         }
         .pickerStyle(SegmentedPickerStyle())

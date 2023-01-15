@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A94A21472973AB5A00C2B8AE /* English.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94A21492973AB5A00C2B8AE /* English.strings */; };
+		A94A21472973AB5A00C2B8AE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94A21492973AB5A00C2B8AE /* Localizable.strings */; };
+		A94A214C2973ADD200C2B8AE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94A214B2973ADD200C2B8AE /* StringExtension.swift */; };
 		BDD2086D27B0B01100697942 /* PicsCaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2086C27B0B01100697942 /* PicsCaseApp.swift */; };
 		BDD2086F27B0B01100697942 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2086E27B0B01100697942 /* ContentView.swift */; };
 		BDD2087127B0B01100697942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD2087027B0B01100697942 /* Assets.xcassets */; };
@@ -33,8 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A94A21482973AB5A00C2B8AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/English.strings; sourceTree = "<group>"; };
-		A94A214A2973AC8400C2B8AE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/English.strings"; sourceTree = "<group>"; };
+		A94A21482973AB5A00C2B8AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A94A214A2973AC8400C2B8AE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A94A214B2973ADD200C2B8AE /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		BDD2086927B0B01100697942 /* PicsCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicsCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD2086C27B0B01100697942 /* PicsCaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsCaseApp.swift; sourceTree = "<group>"; };
 		BDD2086E27B0B01100697942 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,7 +77,6 @@
 		BDD2086027B0B01100697942 = {
 			isa = PBXGroup;
 			children = (
-				A94A21492973AB5A00C2B8AE /* English.strings */,
 				BDD2086B27B0B01100697942 /* PicsCase */,
 				BDD2086A27B0B01100697942 /* Products */,
 			);
@@ -92,6 +93,7 @@
 		BDD2086B27B0B01100697942 /* PicsCase */ = {
 			isa = PBXGroup;
 			children = (
+				A94A21492973AB5A00C2B8AE /* Localizable.strings */,
 				BDD2086C27B0B01100697942 /* PicsCaseApp.swift */,
 				BDD2086E27B0B01100697942 /* ContentView.swift */,
 				BDD208AD27B0DFBA00697942 /* CommandsView */,
@@ -130,6 +132,7 @@
 			children = (
 				BDD2088727B0B1BF00697942 /* ColorExtension.swift */,
 				BDD2088627B0B1BF00697942 /* ViewExtension.swift */,
+				A94A214B2973ADD200C2B8AE /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -248,8 +251,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 				"zh-Hans",
+				Base,
 			);
 			mainGroup = BDD2086027B0B01100697942;
 			productRefGroup = BDD2086A27B0B01100697942 /* Products */;
@@ -268,7 +271,7 @@
 			files = (
 				BDD2087427B0B01100697942 /* Preview Assets.xcassets in Resources */,
 				BDD2087127B0B01100697942 /* Assets.xcassets in Resources */,
-				A94A21472973AB5A00C2B8AE /* English.strings in Resources */,
+				A94A21472973AB5A00C2B8AE /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +290,7 @@
 				BDD2088927B0B1BF00697942 /* ColorExtension.swift in Sources */,
 				BDD2088127B0B13000697942 /* UserSetting.swift in Sources */,
 				BDF1D20E27B14096000C3338 /* BackgroundPickerView.swift in Sources */,
+				A94A214C2973ADD200C2B8AE /* StringExtension.swift in Sources */,
 				BDD2088227B0B13000697942 /* SystemDeviceInfo.swift in Sources */,
 				BDD2089127B0B30700697942 /* RightSaideBarView.swift in Sources */,
 				BDD2088E27B0B26800697942 /* DeviceView.swift in Sources */,
@@ -305,13 +309,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A94A21492973AB5A00C2B8AE /* English.strings */ = {
+		A94A21492973AB5A00C2B8AE /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A94A21482973AB5A00C2B8AE /* en */,
 				A94A214A2973AC8400C2B8AE /* zh-Hans */,
 			);
-			name = English.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -445,7 +449,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PicsCase/Preview Content\"";
 				DEVELOPMENT_TEAM = YRB62S584T;
@@ -459,7 +463,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.noreply-email.PicsMac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -476,7 +480,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PicsCase/Preview Content\"";
 				DEVELOPMENT_TEAM = YRB62S584T;
@@ -490,7 +494,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.noreply-email.PicsMac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -15,7 +15,7 @@ struct CanvasScaleControlView: View {
     
     var body: some View {
         Stepper(value: $userSetting.scale, in: range, step: step) {
-            Text("Canvas Scale Size: \(Int(userSetting.scale*100))%")
+            Text("Canvas Scale Size".localizedString + ": \(Int(userSetting.scale*100))%")
         }
     }
 }

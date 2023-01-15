@@ -14,19 +14,19 @@ struct RightSaideBarView: View {
     var body: some View {
         VStack(alignment:.leading) {
             VStack(alignment:.leading) {
-                Text("Appearance")
+                Text("Appearance".localizedString)
                     .fontWeight(.bold)
                     .font(.system(size: 15))
                 CasePickerView(userSetting: userSetting)
                 Divider()
                 
-                Text("Background")
+                Text("Background".localizedString)
                     .fontWeight(.bold)
                     .font(.system(size: 15))
                 BackgroundSettingView(userSetting: userSetting)
                 Divider()
                 
-                Text("Image")
+                Text("Image".localizedString)
                     .fontWeight(.bold)
                     .font(.system(size: 15))
                 ImageSettingView(userSetting: userSetting)
