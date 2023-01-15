@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A94A21472973AB5A00C2B8AE /* English.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94A21492973AB5A00C2B8AE /* English.strings */; };
 		BDD2086D27B0B01100697942 /* PicsCaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2086C27B0B01100697942 /* PicsCaseApp.swift */; };
 		BDD2086F27B0B01100697942 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2086E27B0B01100697942 /* ContentView.swift */; };
 		BDD2087127B0B01100697942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD2087027B0B01100697942 /* Assets.xcassets */; };
@@ -32,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A94A21482973AB5A00C2B8AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/English.strings; sourceTree = "<group>"; };
+		A94A214A2973AC8400C2B8AE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/English.strings"; sourceTree = "<group>"; };
 		BDD2086927B0B01100697942 /* PicsCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicsCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD2086C27B0B01100697942 /* PicsCaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsCaseApp.swift; sourceTree = "<group>"; };
 		BDD2086E27B0B01100697942 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +75,7 @@
 		BDD2086027B0B01100697942 = {
 			isa = PBXGroup;
 			children = (
+				A94A21492973AB5A00C2B8AE /* English.strings */,
 				BDD2086B27B0B01100697942 /* PicsCase */,
 				BDD2086A27B0B01100697942 /* Products */,
 			);
@@ -245,6 +249,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = BDD2086027B0B01100697942;
 			productRefGroup = BDD2086A27B0B01100697942 /* Products */;
@@ -263,6 +268,7 @@
 			files = (
 				BDD2087427B0B01100697942 /* Preview Assets.xcassets in Resources */,
 				BDD2087127B0B01100697942 /* Assets.xcassets in Resources */,
+				A94A21472973AB5A00C2B8AE /* English.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,11 +304,24 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		A94A21492973AB5A00C2B8AE /* English.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94A21482973AB5A00C2B8AE /* en */,
+				A94A214A2973AC8400C2B8AE /* zh-Hans */,
+			);
+			name = English.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		BDD2087627B0B01100697942 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -365,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

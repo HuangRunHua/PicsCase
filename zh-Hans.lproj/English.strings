@@ -1,0 +1,24 @@
+/* 
+  English.strings
+  PicsCase
+
+  Created by Huang Runhua on 1/15/23.
+  
+*/
+
+"Appearance" = "外观";
+"Choose Mac Case" = "选择设备外壳";
+"Background" = "背景";
+"Show" = "显示";
+"Hide" = "隐藏";
+"Background color" = "背景颜色";
+"Image" = "图像";
+"Opacity" = "透明度";
+"Scale Mode" = "图像缩放模式";
+"Stretch" = "拉伸";
+"Fill" = "填充";
+"Fit" = "合适";
+"Canvas" = "画布";
+"Canvas Scale Size" = "画布缩放大小";
+"Insert Picture" = "插入图片";
+"Export Picture" = "导出图片";

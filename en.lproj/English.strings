@@ -1,0 +1,24 @@
+/* 
+  English.strings
+  PicsCase
+
+  Created by Huang Runhua on 1/15/23.
+  
+*/
+
+"Appearance" = "Appearance";
+"Choose Mac Case" = "Choose Mac Case";
+"Background" = "Background";
+"Show" = "Show";
+"Hide" = "Hide";
+"Background color" = "Background color";
+"Image" = "Image";
+"Opacity" = "Opacity";
+"Scale Mode" = "Scale Mode";
+"Stretch" = "Stretch";
+"Fill" = "Fill";
+"Fit" = "Fit";
+"Canvas" = "Canvas";
+"Canvas Scale Size" = "Canvas Scale Size";
+"Insert Picture" = "Insert Picture";
+"Export Picture" = "Export Picture";
