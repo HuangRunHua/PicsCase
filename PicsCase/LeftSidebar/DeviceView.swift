@@ -12,29 +12,48 @@ struct DeviceView: View {
     @EnvironmentObject var userSetting: UserSetting
     
     var body: some View {
-        ZStack {
+        ZStack(alignment: .center) {
             Rectangle()
                 .frame(width: userSetting.currentDevice.deviceWidth+20, height: userSetting.currentDevice.deviceHeight+20)
                 .foregroundColor(userSetting.backgroundViewColor)
                 .opacity(userSetting.isBackgroundViewShow ? 1:0)
                 
             if userSetting.selectedImageScaleMode == .stretch {
-                Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
-                    .resizable()
-                    .frame(width: userSetting.currentDevice.imgWidth, height: userSetting.currentDevice.imgHeight)
-                    .clipped()
-                    .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
-                    .opacity(userSetting.imageOpacity)
-                    .cornerRadius(((userSetting.currentDevice.name == .iPhone14Pro)||(userSetting.currentDevice.name == .iPhone14ProMax)) ? 10:0 )
+                if ((userSetting.currentDevice.name == .iPhone14Pro)||(userSetting.currentDevice.name == .iPhone14ProMax)) {
+                    Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
+                        .resizable()
+                        .frame(width: userSetting.currentDevice.imgWidth, height: userSetting.currentDevice.imgHeight)
+                        .clipped()
+                        .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
+                        .opacity(userSetting.imageOpacity)
+                        .cornerRadius(10)
+                } else {
+                    Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
+                        .resizable()
+                        .frame(width: userSetting.currentDevice.imgWidth, height: userSetting.currentDevice.imgHeight)
+                        .clipped()
+                        .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
+                        .opacity(userSetting.imageOpacity)
+                }
             } else {
-                Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
-                    .resizable()
-                    .aspectRatio(contentMode: userSetting.selectedImageScaleMode == .fill ? .fill: .fit)
-                    .frame(width: userSetting.currentDevice.imgWidth, height: userSetting.currentDevice.imgHeight)
-                    .clipped()
-                    .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
-                    .opacity(userSetting.imageOpacity)
-                    .cornerRadius(((userSetting.currentDevice.name == .iPhone14Pro)||(userSetting.currentDevice.name == .iPhone14ProMax)) ? 10:0 )
+                if ((userSetting.currentDevice.name == .iPhone14Pro)||(userSetting.currentDevice.name == .iPhone14ProMax)) {
+                    Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
+                        .resizable()
+                        .aspectRatio(contentMode: userSetting.selectedImageScaleMode == .fill ? .fill: .fit)
+                        .frame(width: userSetting.currentDevice.imgWidth, height: userSetting.currentDevice.imgHeight)
+                        .clipped()
+                        .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
+                        .opacity(userSetting.imageOpacity)
+                        .cornerRadius(10)
+                } else {
+                    Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
+                        .resizable()
+                        .aspectRatio(contentMode: userSetting.selectedImageScaleMode == .fill ? .fill: .fit)
+                        .frame(width: userSetting.currentDevice.imgWidth, height: userSetting.currentDevice.imgHeight)
+                        .clipped()
+                        .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
+                        .opacity(userSetting.imageOpacity)
+                }
             }
 
             Image(userSetting.devicePicker.rawValue)

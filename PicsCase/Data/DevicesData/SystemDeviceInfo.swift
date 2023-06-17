@@ -18,7 +18,13 @@ struct SystemDeviceInfo: Identifiable, Equatable {
     var imgHeight: CGFloat
     
     static let allAppleDevice: [SystemDeviceInfo] = [
-        SystemDeviceInfo(name: .MacBookAir13, xOffset: -1, yOffset: -13, deviceWidth: 1024, deviceHeight: 607, imgWidth: 761, imgHeight: 475),
+        SystemDeviceInfo(name: .MacBookAir13,
+                         xOffset: -1,
+                         yOffset: -13,
+                         deviceWidth: 1024,
+                         deviceHeight: 607,
+                         imgWidth: 761,
+                         imgHeight: 475),
         SystemDeviceInfo(name: .MacBookAir13Gen4, xOffset: 0, yOffset: 0, deviceWidth: 1024, deviceHeight: 668, imgWidth: 816, imgHeight: 530),
         SystemDeviceInfo(name: .iMac24, xOffset: 0, yOffset: -114, deviceWidth: 905, deviceHeight: 768, imgWidth: 852, imgHeight: 480),
         SystemDeviceInfo(name: .iMac27, xOffset: 0, yOffset: -98, deviceWidth: 954, deviceHeight: 768, imgWidth: 867, imgHeight: 487),
