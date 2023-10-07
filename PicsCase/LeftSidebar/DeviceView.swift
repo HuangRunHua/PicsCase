@@ -49,7 +49,8 @@ struct DeviceView: View {
                         .opacity(userSetting.imageOpacity)
                         .cornerRadius(10)
                 } else if (userSetting.currentDevice.name == .iPhone15ProMax) ||
-                            (userSetting.currentDevice.name == .iPhone15Pro) {
+                            (userSetting.currentDevice.name == .iPhone15Pro) ||
+                            (userSetting.currentDevice.name == .iPhone15ProLandscape){
                     Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
                         .resizable()
                         .aspectRatio(contentMode: userSetting.selectedImageScaleMode == .fill ? .fill: .fit)

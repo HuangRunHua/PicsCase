@@ -52,6 +52,7 @@ struct SystemDeviceInfo: Identifiable, Equatable {
         SystemDeviceInfo(name: .iPhone15Plus, xOffset: 0, yOffset: 0, deviceWidth: 387, deviceHeight: 768, imgWidth: 327, imgHeight: 708),
         SystemDeviceInfo(name: .iPhone15Pro, xOffset: 0, yOffset: 0, deviceWidth: 390, deviceHeight: 768, imgWidth: 325, imgHeight: 703),
         SystemDeviceInfo(name: .iPhone15ProMax, xOffset: 0, yOffset: 0, deviceWidth: 387, deviceHeight: 768, imgWidth: 327, imgHeight: 707),
+        SystemDeviceInfo(name: .iPhone15ProLandscape, xOffset: 0, yOffset: 0, deviceWidth: 932, deviceHeight: 473, imgWidth: 852, imgHeight: 394),
         
         SystemDeviceInfo(name: .iPadLandscape, xOffset: 0, yOffset: 0, deviceWidth: 1024, deviceHeight: 708, imgWidth: 832, imgHeight: 625),
         SystemDeviceInfo(name: .iPadPortrait, xOffset: 0, yOffset: 0, deviceWidth: 531, deviceHeight: 768, imgWidth: 468, imgHeight: 624),
