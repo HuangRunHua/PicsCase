@@ -29,6 +29,10 @@ enum DeviceCase: String, CaseIterable, Identifiable, Equatable {
     case iPhone14Plus
     case iPhone14Pro
     case iPhone14ProMax
+    case iPhone15
+    case iPhone15Plus
+    case iPhone15Pro
+    case iPhone15ProMax
     case iPadLandscape
     case iPadPortrait
     case iPadminiLandscape
@@ -130,6 +134,14 @@ enum DeviceCase: String, CaseIterable, Identifiable, Equatable {
             return "iPhone 14 Pro Max"
         case .MacBookAir13Gen4:
             return "MacBook Air 13-inch (Gen4)"
+        case .iPhone15:
+            return "iPhone 15"
+        case .iPhone15Plus:
+            return "iPhone 15 Plus"
+        case .iPhone15Pro:
+            return "iPhone 15 Pro"
+        case .iPhone15ProMax:
+            return "iPhone 15 Pro Max"
         }
     }
     

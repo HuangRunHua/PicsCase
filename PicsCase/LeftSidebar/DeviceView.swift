@@ -36,7 +36,10 @@ struct DeviceView: View {
                         .opacity(userSetting.imageOpacity)
                 }
             } else {
-                if ((userSetting.currentDevice.name == .iPhone14Pro)||(userSetting.currentDevice.name == .iPhone14ProMax)) {
+                if ((userSetting.currentDevice.name == .iPhone14Pro) ||
+                    (userSetting.currentDevice.name == .iPhone14ProMax) ||
+                    (userSetting.currentDevice.name == .iPhone15Plus) ||
+                    (userSetting.currentDevice.name == .iPhone15)) {
                     Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
                         .resizable()
                         .aspectRatio(contentMode: userSetting.selectedImageScaleMode == .fill ? .fill: .fit)
@@ -45,7 +48,18 @@ struct DeviceView: View {
                         .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
                         .opacity(userSetting.imageOpacity)
                         .cornerRadius(10)
-                } else {
+                } else if (userSetting.currentDevice.name == .iPhone15ProMax) ||
+                            (userSetting.currentDevice.name == .iPhone15Pro) {
+                    Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
+                        .resizable()
+                        .aspectRatio(contentMode: userSetting.selectedImageScaleMode == .fill ? .fill: .fit)
+                        .frame(width: userSetting.currentDevice.imgWidth, height: userSetting.currentDevice.imgHeight)
+                        .clipped()
+                        .offset(x: userSetting.currentDevice.xOffset, y: userSetting.currentDevice.yOffset)
+                        .opacity(userSetting.imageOpacity)
+                        .cornerRadius(20)
+                }
+                else {
                     Image(nsImage: NSImage(byReferencing: userSetting.currentImageUrl))
                         .resizable()
                         .aspectRatio(contentMode: userSetting.selectedImageScaleMode == .fill ? .fill: .fit)
